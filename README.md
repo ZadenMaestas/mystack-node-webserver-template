@@ -30,7 +30,11 @@ SOFTWARE.
 ### I needed serverside JS for a project I'm working on and came to really like doing things this way when working with websites, so I created this template for future use in later projects [still in development]
 ### Note this is pre V1.0.0, production use is risky
 ## Usage:
-### Currently only one recommended way of using this template which is the good ol' git clone (this is only temporary until I create a python script for quick project generation)
+### If on Linux I'd strongly recommend using the more convenient method (Will not work on Fish shell, I am working on this):
+```bash
+python3 <(curl -s https://raw.githubusercontent.com/TheProtonDev/mystack-node-webserver-template/master/templater.py)
+```
+### If on Windows:
 ```bash
 git clone https://github.com/TheProtonDev/mystack-node-webserver-template.git
 ```
@@ -42,9 +46,10 @@ npm run serverstart
 ## ToDos (In order of urgency):
 - Create a template generator script to reduce changes users have to do
 - Better URL parsing system without requiring positional args, and providing more flexibility
-- Beautify server.js layout to be very minimal and move current contents to its own class (this needs more brainstorming though)
+- Beautify server.js layout to be very minimal and move current contents to its own class or function (this needs more brainstorming though)
 - Add a template system (maybe?)
 - Documentation
 - Favicons seem to be broken? Likely a MIMETYPE issue
+- Add Playwright Integration for testing
 
 This list is far from final.
