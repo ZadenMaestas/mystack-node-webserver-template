@@ -1,0 +1,5 @@
+# Project exclude paths
+/node_modules/
+# Ignore Common IDE Project Files
+.idea
+.vscode

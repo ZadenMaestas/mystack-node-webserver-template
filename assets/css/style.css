@@ -1,0 +1,17 @@
+/* Import Source Sans Pro Font*/
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+
+
+body {
+    color: white;
+    margin-top: 100px;
+    background-color: #181818;
+    font-family: 'Source Sans Pro', sans-serif;
+    text-align: center;
+}
+
+h4 {
+    border-radius: 8px;
+    background-color: #242424;
+    padding: 10px;
+}

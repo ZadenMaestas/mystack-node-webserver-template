@@ -1,0 +1,15 @@
+{
+  "name": "mystack-node-webserver-template",
+  "version": "0.0.1",
+  "type": "module",
+  "description": "TheProtonDev's NodeJS webserver template",
+  "main": "pages/index.html",
+  "scripts": {
+    "startserver": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "TheProtonDev",
+  "license": "MIT",
+  "dependencies": {}
+}
