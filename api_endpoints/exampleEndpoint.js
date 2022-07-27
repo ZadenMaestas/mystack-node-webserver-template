@@ -1,4 +1,4 @@
-import {readUrl} from "../.mystack/utils.js";
+import {readUrl} from "../mystack/utils.js";
 
 export function example(req, res) {
     /*
