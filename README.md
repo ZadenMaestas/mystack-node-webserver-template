@@ -30,9 +30,14 @@ SOFTWARE.
 ### I needed serverside JS for a project I'm working on and came to really like doing things this way when working with websites, so I created this template for future use in later projects [still in development]
 ### Note this is pre V1.0.0, production use is risky
 ## Usage:
-### If on Linux I'd strongly recommend using the more convenient method (Will not work on Fish shell, I am working on this):
+### If on Linux I'd strongly recommend using the more convenient method:
+#### Bash Shell:
 ```bash
 python3 <(curl -s https://raw.githubusercontent.com/TheProtonDev/mystack-node-webserver-template/master/templater.py)
+```
+#### Fish Shell:
+```bash
+python (curl -s https://raw.githubusercontent.com/TheProtonDev/mystack-node-webserver-template/master/templater.py | psub)
 ```
 ### If on Windows:
 ```bash
